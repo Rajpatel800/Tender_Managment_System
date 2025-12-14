@@ -1,0 +1,97 @@
+.awarded-works-container {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.awarded-works-header {
+  margin-bottom: 30px;
+}
+
+.page-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.awarded-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.awarded-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: box-shadow 0.2s;
+}
+
+.awarded-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.awarded-info {
+  flex: 1;
+}
+
+.awarded-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+.awarded-details {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #666666;
+  flex-wrap: wrap;
+}
+
+.awarded-status {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.awarded-status.in-progress {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.awarded-status.completed {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.awarded-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  background-color: #2563eb;
+  color: #ffffff;
+  transition: all 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
